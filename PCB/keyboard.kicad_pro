@@ -423,7 +423,7 @@
       "idf": "",
       "netlist": "keyboard.net",
       "specctra_dsn": "keyboard.dsn",
-      "step": "keyboard.step",
+      "step": "../3D/hb44.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

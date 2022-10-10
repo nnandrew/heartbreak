@@ -20,7 +20,7 @@
   (fp_line (start 7 -34.73) (end 7 1.27) (layer "Dwgs.User") (width 0.12) (tstamp a6074f51-84f7-4340-9e04-f1e32bf69684))
   (fp_line (start -7 1.27) (end -7 -34.73) (layer "Dwgs.User") (width 0.12) (tstamp ba45d088-7a29-4654-aaab-278f3882ae32))
   (fp_line (start -7 1.27) (end 7 1.27) (layer "Dwgs.User") (width 0.12) (tstamp efe5a29e-3f17-4b60-b7a9-de1547844b76))
-  (fp_rect (start -5.08 -29.21) (end 5.08 -3.302) (layer "F.Fab") (width 0.12) (fill none) (tstamp 5b192093-1670-4148-a8ce-d453546ce6d7))
+  (fp_rect (start -5.08 -28.6) (end 5.08 -3.302) (layer "F.Fab") (width 0.12) (fill none) (tstamp 5b192093-1670-4148-a8ce-d453546ce6d7))
   (pad "1" thru_hole circle (at -5.08 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu "F.SilkS" "B.Mask") (tstamp 937e3b80-4ab4-41e9-955a-0b9fef7cceac))
   (pad "2" thru_hole circle (at -2.54 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu "F.SilkS" "B.Mask") (tstamp 9104b1fe-3da9-48b2-98b4-0efb1e589f26))
   (pad "3" thru_hole circle (at 0 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu "F.SilkS" "B.Mask") (tstamp 625a36bc-7694-4132-9c52-42ddc830f751))
