@@ -1,7 +1,41 @@
 # hb44 WIP
 44 Key Wireless BLE Split Keyboard with Encoders, LCDs, Haptic Feedback and Underglow.
-# 3D Print Case Concept
+
 ![keeb](https://user-images.githubusercontent.com/89665539/194816001-ed1ef78e-b732-47fd-bef5-19fbd0d0af4b.png)
+## Parts
+### Required
+
+| Name | Count | Notes |
+|:-|:-|:-|
+| PCB | 2 | Reversible |
+| Case | 2  | 3D printed or machined integrated plate |
+| Bottom plate | 2  | 1.5mm acrylic |
+| nice!nano v2.0 | 2 | ZMK BLE |
+| Reset switch | 2 | B3U-3000P-B |
+| Power switch | 2 | PCM12 |
+| Battery | 2 | 302020 size |
+| Diodes | 42-46 | SOD-123 SMD |
+| PCB sockets | 40-44 | Compatible with Kailh and Gateron |
+| Key switches | 40-44 | Only compatible with MX style |
+| Keycaps | 40-44 | All 1u |
+| Heat set inserts | 3 | only for 3d printed cases |
+| Screw M2 6mm | 3 screws | holds case together |
+| USB C cable | 1 | Data lines required for flashing |
+
+### Optional (case modification recommended if not used)
+
+| Name | Count | Remarks |
+|:-|:-|:-|
+| Rubber feet | 8 pieces | reduce sliding |
+| nice!view LCD module | 2 | low power draw |
+| EC11 Rotary Encoder | 2 | hardware debouncing |
+| Capacitors | 2 | 0603 10nF | 
+| Resistors | 4 | 1206 10kΩ |
+| 17mm Encoder Knob | 2 | tight fit |
+| Pimoroni Haptic Buzz | 2 | requires custom firmware |
+| WS2812B | 16 | LEDs for Undergrow |
+| P-Channel MOSFET | 2 | SOT-23 to shutoff LEDs |
+
 # Frosted Acrylic Bottom Plate
 ![under](https://user-images.githubusercontent.com/89665539/194816017-2babdf1f-a781-419d-88a2-30bd2ec86bb2.png)
 # Scale Comparison with Custom iPhone 11 Model
