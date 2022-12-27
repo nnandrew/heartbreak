@@ -382,11 +382,13 @@
         "name": "HV",
         "nets": [
           "/RAW_BAT",
-          "/R_RAW_BAT",
+          "/RAW_BAT_R",
           "GND",
           "GND1",
+          "GND2",
           "GND3",
-          "RAW"
+          "RAW",
+          "RAW_R"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -406,7 +408,10 @@
         "microvia_drill": 0.1,
         "name": "VCC",
         "nets": [
-          "LED_VCC"
+          "LED_VCC",
+          "LED_VCC_R",
+          "VCC",
+          "VDD"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
