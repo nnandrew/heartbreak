@@ -1,50 +1,47 @@
-# hb44 WIP
-44 Key Wireless BLE Split Keyboard with Encoders, LCDs, Haptic Feedback and Underglow.
+# heartbreak
+a 40 Key Wireless BLE Split Keyboard with Encoders, LCDs, Haptic Feedback, Fingerprint Reading, Underglow, and a corny theme.
 
-![keeb](https://user-images.githubusercontent.com/89665539/194816001-ed1ef78e-b732-47fd-bef5-19fbd0d0af4b.png)
+![centerGlow](https://user-images.githubusercontent.com/89665539/209635707-873cbbfb-38ac-4ec4-bf04-a68bafcc8092.png)
+![zoom](https://user-images.githubusercontent.com/89665539/209636365-c86dfcbd-20c0-4ebd-8d7b-e0c3136fe7c4.png)
+
 ## Parts
 ### Required
 
 | Name | Count | Notes |
 |:-|:-|:-|
 | PCB | 2 | Reversible |
-| Case | 2  | 3D printed or machined integrated plate |
-| Bottom plate | 2  | 1.5mm acrylic |
+| PCB Coin | 1-2 | fills case hole with a <3 |
+| Top Shell | 2  | 3D printed or machined integrated plate |
+| Bottom Shell | 2  | Transparent resin print |
+| Magnets | 48  | 3x1mm to hold the case together |
 | nice!nano v2.0 | 2 | ZMK BLE |
-| Reset switch | 2 | B3U-3000P-B |
-| Power switch | 2 | PCM12 |
-| Battery | 2 | 302020 size |
-| Diodes | 42-46 | SOD-123 SMD |
-| PCB sockets | 40-44 | Compatible with Kailh and Gateron |
-| Key switches | 40-44 | Only compatible with MX style |
-| Keycaps | 40-44 | All 1u |
-| Heat set inserts | 3 | only for 3d printed cases |
-| Screw M2 6mm | 3 screws | holds case together |
+| MCU Sockets | 50-70 | 0627-0-15-15-21-27-10-0 | 
+| MCU Pins | 50-70 | 3320-0-00-15-00-00-03-0 |
+| Reset Switch | 2 | B3U-3000P-B |
+| Power Switch | 2 | PCM12 |
+| Battery | 2 | 301230 size |
+| Diodes | 42 | SOD-123 SMD |
+| Switch Sockets | 40 | Kailh sockets |
+| Key Switches | 40 | Only compatible with MX style |
+| Keycaps | 40 | All 1u |
 | USB C cable | 1 | Data lines required for flashing |
 
-### Optional (case modification recommended if not used)
+### Optional
 
 | Name | Count | Remarks |
 |:-|:-|:-|
-| Rubber feet | 8 pieces | reduce sliding |
-| nice!view LCD module | 2 | low power draw |
-| EC11 Rotary Encoder | 2 | hardware debouncing |
-| Capacitors | 2 | 0603 10nF | 
-| Resistors | 4 | 1206 10kΩ |
-| 17mm Encoder Knob | 2 | tight fit |
-| Pimoroni Haptic Buzz | 2 | requires custom firmware |
-| WS2812B | 16 | LEDs for Undergrow |
+| Rubber feet | 8 | reduce sliding |
+| nice!view LCD | 2 | low power draw |
+| Pimoroni Haptic Buzz | 1 | requires custom firmware |
+| Waveshare UART Fingerprint Sensor | 1 | requires custom firmware |
+| EC11 Rotary Encoder | 2 | using hardware debouncing |
+| 17mm Encoder Knob | 2 | a tight fit |
+| Schmitt Trigger | 2 | 74AUP2G14 |
+| 10kOhm Resistors | 8 | encoder debounce |
+| 0.1uC Capacitors | 4 | for leds and debounce |
+| WS2812B | 9 | LEDs for Undergrow |
+| SK6812-SIDE | 4 | LEDs for Undergrow |
 | P-Channel MOSFET | 2 | SOT-23 to shutoff LEDs |
-
-# Frosted Acrylic Bottom Plate
-![under](https://user-images.githubusercontent.com/89665539/194816017-2babdf1f-a781-419d-88a2-30bd2ec86bb2.png)
-# Scale Comparison with Custom iPhone 11 Model
-![scale_render](https://user-images.githubusercontent.com/89665539/189868253-35c38a46-b6ac-41dd-8377-bcc44d57a411.jpg)
-# Back View with Underglow
-![underglow_render](https://user-images.githubusercontent.com/89665539/189868243-f7e38148-f32a-4d35-89c4-4ec83fb93c8e.jpg)
-# Outdated Black PCB Render 
-![pcb](https://user-images.githubusercontent.com/89665539/188523859-1b33242e-b722-44bf-9a23-a17a8e4e915e.png)
-# Outdated PCB Routing
-![pcbkicad](https://user-images.githubusercontent.com/89665539/188523829-792cb9b3-12c5-414f-8945-cd045c74af67.png)
-# Old Exploded Case Concept
-![case explode](https://user-images.githubusercontent.com/89665539/188523862-03cefc04-8122-47c3-8a17-faee84bbb443.png)
+| 200Ohm Resistors | 2 | current limit for mosfet |
+| 200kOhm Resistors | 2 | pulldown for mosfet |
+| 0.1uC Capacitors | 26 | for leds and debounce |
