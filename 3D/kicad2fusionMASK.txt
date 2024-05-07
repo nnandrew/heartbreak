@@ -1,0 +1,7 @@
+pcb to cad
+export svg mask
+clean up illustrator
+export as dxf 1=1
+import fusion
+scale 0.35292041644
+done
